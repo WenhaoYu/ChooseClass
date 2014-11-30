@@ -8,7 +8,7 @@ import cookielib
 import string  
 import re  
 from login import login
-username = rwa_input("Username:")
+username = raw_input("Username:")
 password = raw_input("Password")
 text = login(username,password)
 #print text
