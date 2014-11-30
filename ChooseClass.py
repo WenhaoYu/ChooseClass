@@ -8,8 +8,8 @@ import cookielib
 import string  
 import re  
 from login import login
-username = 'yuwenhao@iie.ac.cn'
-password = '420116199207142432'
+username = rwa_input("Username:")
+password = raw_input("Password")
 text = login(username,password)
 #print text
 def ChooseAcademy(AcademyNubber):
