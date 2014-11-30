@@ -39,10 +39,10 @@ def ChooseClass(ClassNumber,AcademyNubber,ClassType):
 if __name__ == "__main__":
     AcademyNubber = 'B'
     while AcademyNubber not in ['0','1','2','3','4','5','6','7','8','9','T','E','G','M','C']:
-        print "选择学院："
-        print "0-人文学院                  1-外语系                   2-数学科学学院                                           3-物理学院                                         4-化学与化工学院"
-        print "5-生命科学学院              6-地球科学学院             7-计算机与控制学院                                 8-资源与环境学院                           9-管理学院 "
-        print "T-体育教研室                E-电子电气与通信工程学院   G-工程管理与信息技术学院                     M-材料科学与光电学院                  C-科技管理学院"
+        print "选择学院：
+        print "0-人文学院                  1-外语系                   2-数学科学学院                3-物理学院               4-化学与化工学院"
+        print "5-生命科学学院              6-地球科学学院             7-计算机与控制学院            8-资源与环境学院         9-管理学院 "
+        print "T-体育教研室                E-电子电气与通信工程学院   G-工程管理与信息技术学院      M-材料科学与光电学院     C-科技管理学院"
         AcademyNubber = raw_input('输入学院编号：')
     ChooseAcademy(AcademyNubber)
     Classnum1 = []    #专业课表
